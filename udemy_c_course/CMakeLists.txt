@@ -5,7 +5,9 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(udemy_c_course
         src/ex1_pay_raise.c
+        src/ex2_time_converter.c
         src/menu.c
         main.c
         include/ex1_pay_raise.h
+        include/ex2_time_converter.h
         include/menu.h)
