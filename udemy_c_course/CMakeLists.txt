@@ -8,10 +8,12 @@ add_executable(udemy_c_course
         src/ex2_time_converter.c
         src/ex3_trapezium_area.c
         src/ex4_length_of_hypotenuse.c
+        src/ex5_next_grade.c
         src/menu.c
         main.c
         include/ex1_pay_raise.h
         include/ex2_time_converter.h
         include/ex3_trapezium_area.h
         include/ex4_length_of_hypotenuse.h
+        include/ex5_next_grade.h
         include/menu.h)
