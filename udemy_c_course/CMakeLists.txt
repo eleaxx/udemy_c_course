@@ -16,4 +16,6 @@ add_executable(udemy_c_course
         include/ex3_trapezium_area.h
         include/ex4_length_of_hypotenuse.h
         include/ex5_next_grade.h
-        include/menu.h)
+        include/menu.h
+        src/ex6_classify_numbers.c
+        include/ex6_classify_numbers.h)

@@ -5,6 +5,7 @@
 #include "../include/ex3_trapezium_area.h"
 #include "../include/ex4_length_of_hypotenuse.h"
 #include "../include/ex5_next_grade.h"
+#include "../include/ex6_classify_numbers.h"
 void run_menu() {
 
     int option;
@@ -40,11 +41,15 @@ void run_section_6_menu() {
     do{
         printf("\nOptions:\n"
                "\t 1 -> Check if a student moves up to next grade.\n"
+               "\t 2 -> classify a number.\n"
                "\t 0 -> Go back.\n");
         scanf("%i", &option);
         switch(option){
             case 1:
                 next_grade();
+                break;
+            case 2:
+                classify_numbers();
                 break;
             case 0:
                 break;
