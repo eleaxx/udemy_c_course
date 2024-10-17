@@ -5,6 +5,8 @@
 #include "../include/ex3_trapezium_area.h"
 #include "../include/ex4_length_of_hypotenuse.h"
 #include "../include/ex14_sequential_search.h"
+#include "../include/ex15_binary_search.h"
+
 void run_menu() {
 
         int option;
@@ -13,7 +15,7 @@ void run_menu() {
     do{
         printf("\nOptions:\n"
                "\t 1 -> Expressions and operators.\n"
-               "\t 2 -> Conditional structures.\n"
+               "\t 2 -> Sorting algorithms.\n"
                "\t 0 -> Exit.\n");
         scanf("%i", &option);
         switch(option){
@@ -40,6 +42,7 @@ void run_section_14_menu() {
     do{
         printf("\nOptions:\n"
                "\t 1 -> Find a number (sequential search).\n"
+               "\t 2 -> Sort a list (bubble sort) and find a number (binary search).\n"
                "\t 0 -> Go back.\n");
         scanf("%i", &option);
         switch(option){
@@ -47,6 +50,7 @@ void run_section_14_menu() {
                 sequential_search();
                 break;
             case 2:
+                binary_search();
                 break;
             case 0:
                 break;

@@ -16,4 +16,5 @@ add_executable(udemy_c_course
         include/ex4_length_of_hypotenuse.h
         include/menu.h
         include/ex14_sequential_search.h
-        src/ex14_sequential_search.c)
+        src/ex14_sequential_search.c
+        src/ex15_binary_search.c)
