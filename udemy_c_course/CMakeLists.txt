@@ -14,4 +14,6 @@ add_executable(udemy_c_course
         include/ex2_time_converter.h
         include/ex3_trapezium_area.h
         include/ex4_length_of_hypotenuse.h
-        include/menu.h)
+        include/menu.h
+        include/ex14_sequential_search.h
+        src/ex14_sequential_search.c)
